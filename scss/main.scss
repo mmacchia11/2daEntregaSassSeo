@@ -24,7 +24,7 @@ header{
 
 nav{
     @include caja-flex(space-between, center, nowrap);
-
+    
     ul{
         display:flex;
         padding:0;

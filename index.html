@@ -1,94 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIO</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin M.</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/8a815a169a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-    
-    <header id="menu">         
-        <nav>
-            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo" width="200" height="50"></a>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="#">PORTAFOLIO</a></li>
-                <li><a href="#">CONTACTOS</a></li>
-            </ul>
-        </nav>            
+  <body>
+    <header id="menu">
+      <nav>
+        <a href="index.html"
+          ><img
+            src="img/logo.png"
+            class="logo"
+            alt="logo"
+            width="200"
+            height="50"
+        /></a>
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="#">PORTAFOLIO</a></li>
+          <li><a href="#">CONTACTOS</a></li>
+        </ul>
+      </nav>
     </header>
 
-
-
     <section class="presentacion">
-        <div class="flex-item1">
-            <h1>Diseñamos Interfaces Minimalistas Que Encantan y Captivan</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus porro atque, vel placeat impedit repellendus sint!
-            </p>
-            <div>
-                <button class="btn-principal" type ="submit">COMUNICATE</button>
-                <button class="btn-secundario" type ="submit">PORTAFOLIO</button>
-            </div>
+      <div class="flex-item1">
+        <h1>Cree su tienda Online y aumente sus ventas!</h1>
+        <p>
+          Con nuestos diseños webs, responsivos y son Seo optimización aumentara
+          las visitas a sus sitio, Logrando así aumentar las ventas de su
+          negocio.
+        </p>
+        <div>
+          <button class="btn-principal" type="submit">COMUNICATE</button>
+          <button class="btn-secundario" type="submit">PORTAFOLIO</button>
         </div>
-        <div class="flex-item2">
-            <img src="img/caratula2.png" alt="caratula" width="500" height="400">
-        </div>
+      </div>
+      <div class="flex-item2">
+        <img src="img/caratula2.png" alt="caratula" width="500" height="400" />
+      </div>
     </section>
 
-
     <div class="wrapper">
-        <section class="servicios" >
-            <div class="titulo-servicios">
-                <h2>Creamos Experiencias Maravillosas Para Los Usuarios</h2>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
-                </p>
-            </div>
-            <div class="tipo-servicios">
-                <div>
-                    <i class="fas fa-drafting-compass"></i>
-                    <h3>Diseño UX/UI</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-laptop"></i>
-                    <h3>Desarrollo WEB</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-cart-arrow-down"></i>
-                    <h3>Comercio Digital</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
-                    </p>
-                </div>
-            </div>
-        </section>
+      <section class="servicios">
+        <div class="titulo-servicios">
+          <h2>Creamos Experiencias Maravillosas Para Los Usuarios</h2>
+          <p>
+            El Seo es una herramienta fundamental. Nos ayuda a guiar a los
+            clientes potenciales para optimizar las ventas por internet.
+          </p>
+        </div>
+        <div class="tipo-servicios">
+          <div>
+            <i class="fas fa-drafting-compass"></i>
+            <h3>Seo</h3>
+            <p>
+              Conoce prácticas y estrategias de SEO para mejorar el
+              posicionamiento de tu sitio web. SEO | Te compartimos algunas
+              ideas para que más personas lleguen a tu sitio web.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-laptop"></i>
+            <h3>Diseño WEB</h3>
+            <p>
+              Permite un resultado visual agradable y que facilita la atención
+              al contenido. Un buen Desarrollo Web mejora la adaptabilidad de la
+              sitio a diferentes dispositivos, logrando así una mejor respuesta
+              de los clientes.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-cart-arrow-down"></i>
+            <h3>E commerce</h3>
+            <p>
+              El E-commerce son sitios webs de ventas online y tiene muchos
+              beneficios ente ellos Reduce costos, Genera lealtad con los
+              clientes, Mayor alcance de público y brinda Seguridad para el
+              vendedor y el comprador
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
 
     <footer>
-        <p class="footer-content">
-            ArtWEB &copy;Todos los derechos reservados 2021
-        </p>
+      <p class="footer-content">
+        ArtWEB &copy;Todos los derechos reservados 2021
+      </p>
     </footer>
     <script>
-       const menu = document.getElementById('menu');
-       window.onscroll = function(){
-           if(window.pageYOffset>10){
-               menu.style.backgroundColor='#fff';
-           }
-           else{
-               menu.style.backgroundColor='initial';
-           }
-       }
+      const menu = document.getElementById("menu");
+      window.onscroll = function () {
+        if (window.pageYOffset > 10) {
+          menu.style.backgroundColor = "#fff";
+        } else {
+          menu.style.backgroundColor = "initial";
+        }
+      };
     </script>
-</body>
+  </body>
 </html>
